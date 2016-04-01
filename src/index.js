@@ -2,7 +2,7 @@ import crypto from 'crypto-js';
 
 export default class {
   constructor(password, method) {
-    this.prefix = `@S@S@${method}@${password}@`;
+    this.prefix = `@S@S@`;
     this._method = method;
     this._password = password;
   }

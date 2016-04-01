@@ -26,7 +26,7 @@ var _class = function () {
   function _class(password, method) {
     _classCallCheck(this, _class);
 
-    this.prefix = '@S@S@' + method + '@' + password + '@';
+    this.prefix = '@S@S@';
     this._method = method;
     this._password = password;
   }
